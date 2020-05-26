@@ -1,0 +1,584 @@
+﻿/*global*/
+body {
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+p {
+    font-size: 15px;
+    color:#ccc;
+}
+
+/*end global*/
+/*start header*/
+.header {
+    width: 100%;
+    background: url("../image/download2.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+}
+.header .overlay{
+    background-color: rgba(23, 23, 23,.7);
+}
+.header .nav h3{
+    width:70%;
+    display:inline-block;
+}
+.header .nav{
+    width:100%;
+}
+.header .nav div{
+     float:right;
+     margin-top:20px;
+}
+.header .nav div i{
+    margin-left:20px;
+    cursor:pointer;
+}
+.header .intro{
+    text-align:center;
+    margin:auto;
+    width:100%;
+    line-height:25px;
+    
+}
+.header .intro button {
+    width: 150px;
+    padding: 10px 0px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: transparent;
+    color: #aaa;
+}
+.header .intro button:hover{
+    background-color:darkorange;
+    border:1px solid darkorange;
+    color:white;
+    cursor:pointer;
+    transition:.5s ease-in-out;
+}
+    .header .down {
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+.header .down i {
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.header .nav ul {
+    list-style: none;
+    font-size: 12px;
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    width: 110px;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    display: none;
+}
+.header .nav ul li{
+    width:100%;
+    padding:8px 10px 8px 0;
+    border-bottom:2px solid whitesmoke;
+    margin:10px auto;
+   
+}
+.header .nav ul li:hover{
+    background-color:whitesmoke;
+    border-radius:10px;
+    color:darkorange;
+}
+
+.signin{
+    width:100%;
+    height:500px;
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+}
+
+.signin .overlay{
+    background-color:rgba(23, 23, 23,.5);
+}
+    .signin .overlay form {
+        width: 50%;
+        height: 40%;
+        margin: auto;
+        background-color: darkorange;
+        color: whitesmoke;
+        border-radius: 10px;
+        position: relative;
+        align-items: center;
+    }
+.signin form input{
+    
+    width:90%;
+    padding:10px;
+    color:#000000;
+    font-size:13px;
+    margin:20px 15px;
+    border:1px solid darkorange;
+    border-radius:10px;
+}
+    
+.signin form button{
+    width:80%;
+    margin:20px 50px;
+   padding:10px;
+   background-color:whitesmoke;
+   border:1px solid whitesmoke;
+   color:darkorange;
+   border-radius:10px;
+}
+.signin form button:hover{
+    background-color:darkorange;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+    .signin .overlay i {
+        color: darkorange;
+        margin: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+/*end header*/
+/*start feature*/
+
+.feature{
+    margin-top:20px;
+}
+.feature .box {
+    float: left;
+    width: 17%;
+    margin: 60px 36px;
+    text-align: center;
+}
+.feature .box i {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.feature .box i:hover {
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+/*end feature*/
+
+/*start subscribe*/
+
+.subscribe {
+    background: url("../image/download2.jpg") no-repeat center center;
+    height:240px;
+    background-size:cover;
+    position:relative;
+}
+.subscribe .overlay {
+    background-color: rgba(23, 23, 23,.7);
+}
+.subscribe form{
+    margin:auto;
+    width:600px;
+    padding:100px 0;
+    text-align:center;
+}
+.subscribe form input {
+    width: 60%;
+    border-radius: 10px;
+    padding:5px 10px;
+    border:1px solid #888;
+    top:4px;
+}
+.subscribe form button {
+    padding: 6px;
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    color: whitesmoke;
+    width: 30%;
+    font-size: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*end subscribe*/
+
+/*start ourwork*/
+
+
+.ourwork .work {
+    width: 30%;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin: 1%;
+    
+}
+.ourwork .work img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.ourwork .work .overlay{
+    background-color:darkorange;
+    opacity:.9;
+    text-align:center;
+   border-radius:10px;
+   top:1px;
+   left:1px;
+    display:none;
+}
+.ourwork .work .overlay button {
+    background-color: darkorange;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor:pointer;
+}
+.ourwork .work .overlay button:hover {
+    background-color: whitesmoke;
+    border: 1px solid darkorange;
+    color: darkorange;
+}
+.ourwork .work .overlay p {
+    font-size: 12px;
+    color: wheat;
+}
+.ourwork .work .overlay h3{
+    padding:5px;
+    color:whitesmoke;
+}
+.ourwork .work:hover .overlay {
+    display: block;
+    cursor: pointer;
+}
+.ourwork .show button,.ourwork .hide1 button {
+    background-color: whitesmoke;
+    border: 1px solid #888;
+    color: #333;
+    padding: 7px;
+    width:100%;
+    font-size:14px;
+    border-radius: 10px;
+   margin-top:50px;
+    cursor: pointer;
+
+}
+.ourwork .show,.ourwork .hide1 {
+    width: 170px;
+    margin: 50px auto;
+}
+    .ourwork .show button:hover, .ourwork .hide1 button:hover{
+        background-color: darkorange;
+        border: 1px solid darkorange;
+        color: whitesmoke;
+    }
+.ourwork .hide,.ourwork .hide1{
+    display:none;
+}
+
+
+/*end ourwork*/
+
+/*start testmonials*/
+.testmon {
+    width: 100%;
+    height:500px;
+    background: url("../image/im7.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+}
+
+.testmon .overlay {
+    background-color: rgba(23, 23, 23,.7);
+}
+.testmon .left {
+    width:10%;
+    top:50%;
+    left: 0;
+    cursor:pointer;
+}
+
+.testmon .left i {
+    padding: 7px;
+    margin-left: 10px;
+}
+.testmon .right {
+    width: 10%;
+    top: 50%;
+    right: 0;
+    cursor:pointer;
+}
+
+.testmon .right i {
+    padding: 7px;
+    margin-right: 10px;
+    float:right;
+}
+
+.testmon .test .image{
+    width:80px;
+    height:80px;
+    margin:20px auto;
+}
+.testmon .test .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testmon .test {
+    width: 50%;
+    text-align: center;
+    margin: 20% auto;
+    display: none;
+}
+
+.testmon .test p{
+    color:#ccc;
+}
+.testmon .slide{
+    display:block;
+}
+
+/*start testmonials*/
+/*startour team*/
+.ourteam .team {
+    float: left;
+    width: 24%;
+    height: 350px;
+    text-align: center;
+    color: #aaa;
+    margin-right:1%;
+    margin-bottom:4%;
+   
+}
+
+.ourteam .team .box{
+    height:60%;
+    width:70%;
+    margin:auto;
+}
+
+.ourteam .team .box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter:gray;
+    filter: grayscale(100%);
+    margin-top:10%
+}
+.ourteam .team:hover img{
+    filter:none;
+   /* transform:translateY(15px);
+   transition:cubic-bezier(5px);*/
+   border-bottom:4px solid darkorange;
+   margin-top:0;
+
+}
+
+
+.ourteam .team:hover, .ourteam .team:hover p {
+    color: #333;
+    cursor:pointer;
+}
+.ourteam .team:hover .icon .fa-facebook{
+    background-color:darkblue;
+    border:1px solid blue;
+}
+
+.ourteam .team:hover .icon .fa-google-plus {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.ourteam .team:hover .icon .fa-twitter {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+
+.ourteam .team p {
+    font-size: 12px
+}
+.ourteam .team .icon i {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    line-height:25px;
+    background-color: #aaa;
+    /* text-align: center; */
+    color: white;
+    
+}
+
+
+/**end our team*/
+/**start contact*/
+.contact{
+    width:100%;
+    height:700px;
+    background:url("../image/im6.jpg")no-repeat ;
+    background-size:cover;
+    position:relative;
+    color:whitesmoke;
+}
+
+.contact .overlay{
+    background-color:rgba(23, 23, 23,.7);
+}
+
+.contact form{
+    width:90%;
+    margin:auto;
+}
+.contact form input{
+    width:40%;
+    margin-left:3%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+.contact form input[placeholder], .contact form textarea[placeholder] {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.contact form textarea {
+    width: 87%;
+    margin: 4% 3%;
+    height: 200px;
+    border-radius: 10px;
+    padding:15px 10px;
+    line-height:25px;
+}
+
+
+.contact form button {
+    padding: 7px;
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    color: whitesmoke;
+    width: 20%;
+    font-size: 13px;
+    margin: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact form .icon {
+    float: right;
+    margin-right: 8%;
+}
+
+.contact form .icon i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.contact form .icon .fa-facebook {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+
+.contact form .icon .fa-google-plus {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.contact form .icon .fa-twitter {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+
+/**end contact*/
+/*start footer*/
+.footer{
+    background-color:rgba(7, 6, 6, 0.80);
+    width:100%;
+    font-size:14px;
+    color:#ccc;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+.footer .left{
+    left:0px;
+    float:left;
+}
+.footer .right{
+    right:0px;
+    float:right;
+
+}
+/*end footer*/
+
+
+/*start framework */
+.container {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.clearfix{
+    clear:both;
+}
+.color {
+    color: darkorange;
+}
+.colorbg {
+    background-color: darkorange;
+} 
+.upper{
+    text-transform:uppercase;
+}
+.overlay {
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.arrow {
+    width: 100%;
+    position: absolute;
+    
+}
+.intro {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+}
+.dark{
+    color:#888;
+}
+
+/*end framework*/
