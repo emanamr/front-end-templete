@@ -31,6 +31,10 @@ $(function(){
         },1000);
     });
 
+    //open menu in media
+    $("#bar").click(function () {
+        $("#list").slideToggle(500);
+    });
 // auto slider
 (function autoSlider(){
     $('.slidert .active').each(function(){
